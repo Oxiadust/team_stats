@@ -4,12 +4,13 @@ import './App.css';
 class App extends Component {
  
   state = {
-    list : []
+    list : [],
+    jsonHost: 'http://localhost:3000/winnipeg'
   }
   
   /* Will fetch the data only if the App Component is loaded */
   componentDidMount(){
-    fetch("http://localhost:3000/winnipeg")
+    fetch(this.state.jsonHost)
 
       .then((response) => {
         if (response.status !== 200) {
