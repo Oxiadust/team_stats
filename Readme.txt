@@ -2,7 +2,11 @@
 
 1 - To set it up on your local, you will need to install NodeJS on your computer
 
-You can  either download it here https://nodejs.org/en/download/  here or install it via command line
+You can  either download it here https://nodejs.org/en/download/  here or install it via command line.
+
+after nodjs is installed, type the command line
+npm install 
+on the the folder, to add the node_modules depencies.
 
 2 - You will also need to install a json server with the command line below
 
